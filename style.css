@@ -12,8 +12,105 @@ body{
     background-size: cover;
     background-position: center;
     height: 100%;
+}
+
+/*style of navbar*/
+.head .navbar{
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #021826;
+    box-shadow: 3px 3px 5px black;
+}
+.navbar .logo{
+    display: flex;
+    gap: 5px;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 3.5vmin;
+    align-items:center;
+}
+.logo h2{
+    margin-top:10px ;
+    padding: 5px;
 
 }
+.logo h2 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30pxs;
+
+} 
+.navbar .nav{
+    padding: 5px;
+
+}
+.nav ul{
+    display: flex;
+    gap: 15px;
+}
+
+.nav ul li{
+    margin: 10px;
+    list-style: none;
+
+}
+    .nav ul li a{
+    text-decoration: none;
+    font-size: 3.2vmin;
+    color: #04BfAD;
+    cursor: pointer;
+    text-transform: capitalize;
+    position: relative;
+    
+}
+.nav ul li a::after{
+    content: "";
+    width:0;
+    height:2px;
+    background: #04BfAD;
+   
+    position: absolute;
+    left:0;
+    display: block;
+    transition: 0.5s;
+
+}
+.nav ul li a:hover::after{
+    width:100%;
+
+}
+.navbar .buttons{
+    margin: 5px;
+    padding: 10px;
+}
+button{
+    margin: 10px;
+    font-size: 25px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background:transparent;
+    color:white;
+    width:130px;
+    height:50px;
+    transition-duration: 1s;
+    text-transform: capitalize;
+
+}
+
+button:hover {
+    background-color: #037f8c;
+    transform:scale(1.1);
+}
+
+
+/* style of contanire*/
 .contanire{
     margin-top: 150px;
 }
