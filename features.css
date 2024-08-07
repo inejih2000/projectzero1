@@ -117,10 +117,11 @@ button:hover {
      text-align: center;
 }
 .content h1{
-    font-size:6vmin;
+    font-size:6.5vmin;
     font-weight:700;
     text-transform: capitalize;
     color:#045B8D;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
 
     
 }
