@@ -5,6 +5,9 @@
     font-family: sans-serif;
 }
 
+body{
+    background:#F0F0F0
+}
 /*style of navbar*/
 
 .head .navbar{
@@ -106,74 +109,100 @@ button:hover {
 .frequantquestion{
     height: 500px;
     width: 100%;
-    background-image: url(inej4.jpeg) ;
-
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(inej4.jpeg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    text-align: center;
-
- 
+    background-position: center;
+    margin-bottom: 100px;
 }
 .frequantquestion .title{
-position: absolute;
-top: 330px;
-left: 200px;
-
-    font-size:45px;
-   font-weight: 800;
-    color:#045B8D;
-    text-transform:uppercase;
-  
-}
-.faq-section {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 50px;
+    width: 90%;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.title h1{
+    font-size:6.5vmin;
+    font-size:800;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.title p{
+    text-transform:capitalize;
+    font-size:2.8vmin;
+    color:#fff;
+    margin:20px 0 20px;
+    word-spacing: 1px;
+    line-height: 1.9;
+}
+.title a{
+    text-decoration:none;
+    background:transparent;
+    font-size:2.5vmin;
+    color:#ffffff;
+    text-transform: capitalize;
+    padding: 12px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 20px;
+    display:inline-block ;
+}
+.title a:hover{
+    background:#037f8c;
+    border: 1px solid #037f8c;
+}
+
+.faq-section {
+    width:80%;
+    margin: auto;
+    
+    
 }
 
 .question {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.faq-section .question button{
-    color: black;
-    font-size: 27px;
-    padding: 15px;
-    letter-spacing: 2px;
-    font-weight: 400;
+.faq-section .question .button{
     text-transform: capitalize;
-    background-color:#fff;
-outline: none;
-    border-radius: 4px;
-    width: 800px;
-    margin-right: 10px;
+    padding: 15px;
+    font-size: 3vmin;
+    width:400px;
+    outline:none;
+    height: 50px;
+    background: #ffffff;
+    border:1px solid rgba(0, 0, 0, 0.7);
+    margin: 0 0 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0,0,0,0.5);
+    color:#023859;
+    cursor: pointer;
 
 }
 .answer {
     display: none;
     text-transform: capitalize;
-    
-    margin-top: 10px;
-    border: 2px solid #fff;
-    color : #023859;
+    color : black;
     background-color: #fff;
-    box-shadow: 2px 2px 2px 2px;
-    border-radius: 10px;
-    font-size: 27px;
-    font-weight: 400;
-    padding: 10px;
-    width: 850px;
-    height: 300px;
-    padding: 10px;
-    text-align: center;
+    position: absolute;
+    right:30px;
+    width:400px;
+    height: 150px;
+    line-height: 1.6;
+    font-size: 2.6vmin;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0,0,0,0.5);
 }
 
 .answer.active {
     display: block;
 }
-span{
-    margin-left: 100px;
-}
+
 
