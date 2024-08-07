@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*style of navbar*/
+
+.head .navbar{
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #021826;
+    box-shadow: 3px 3px 5px black;
+}
+.navbar .logo{
+    display: flex;
+    gap: 5px;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 3.5vmin;
+    align-items:center;
+}
+
+.logo h2{
+    margin-top:10px ;
+    padding: 5px;
+
+}
+.logo h2 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30pxs;
+
+} 
+.navbar .nav{
+    padding: 5px;
+
+}
+.nav ul{
+    display: flex;
+    gap: 15px;
+}
+
+.nav ul li{
+    margin: 10px;
+    list-style: none;
+
+}
+    .nav ul li a{
+    text-decoration: none;
+    font-size: 3.2vmin;
+    color: #04BfAD;
+    cursor: pointer;
+    text-transform: capitalize;
+    position: relative;
+    
+}
+.nav ul li a::after{
+    content: "";
+    width:0;
+    height:2px;
+    background: #04BfAD;
+   
+    position: absolute;
+    left:0;
+    display: block;
+    transition: 0.5s;
+
+}
+.nav ul li a:hover::after{
+    width:100%;
+
+}
+.navbar .buttons{
+    margin: 5px;
+    padding: 10px;
+}
+.buttons button{
+    margin: 10px;
+    font-size: 25px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background:transparent;
+    color:white;
+    width:130px;
+    height:50px;
+    transition-duration: 1s;
+    text-transform: capitalize;
+
+}
+
+button:hover {
+    background-color: #037f8c;
+    transform:scale(1.1);
+}
+/*style of navbar*/
+/*style of the image and the title*/
+.frequantquestion{
+    height: 500px;
+    width: 100%;
+    background-image: url(inej4.jpeg) ;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+
+ 
+}
+.frequantquestion .title{
+position: absolute;
+top: 330px;
+left: 200px;
+
+    font-size:45px;
+   font-weight: 800;
+    color:#045B8D;
+    text-transform:uppercase;
+  
+}
+.faq-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.question {
+    cursor: pointer;
+}
+.faq-section .question button{
+    color: black;
+    font-size: 27px;
+    padding: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color:#fff;
+outline: none;
+    border-radius: 4px;
+    width: 800px;
+    margin-right: 10px;
+
+}
+.answer {
+    display: none;
+    text-transform: capitalize;
+    
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color : #023859;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10px;
+    font-size: 27px;
+    font-weight: 400;
+    padding: 10px;
+    width: 850px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.answer.active {
+    display: block;
+}
+span{
+    margin-left: 100px;
+}
+
