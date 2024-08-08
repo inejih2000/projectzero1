@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    background:#F0F0F0;
+}
+.contanire{
+    width:80%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    align-items: stretch;
+    justify-content: center;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photo{
+    width:40%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background:#FFFFFF ;
+}
+.contanire img{
+    width:100%; 
+    height: 100%;
+}
+.form{
+    width:40%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background:#04BfAD ;
+}
+form .Email-form{
+    margin: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+form .Email-form:hover{
+  border: 1px solid #444444;
+}
+form .Email-form input{
+    outline:none;
+    border: none;
+    background: transparent;
+    color:#444444;
+    font-size: 16px;
+    margin-left: 6px;
+}
+form .Email-form{
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+form{
+    padding: 40px;
+}
+.form h2{
+    text-transform:capitalize;
+    font-size:6.5vmin;
+    font-weight: 700;
+    margin: 40px 0 0;
+    text-align: center;
+    color:#333333 ;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn1{
+    background:#FFA500;
+    color:#FFFFFF;
+    padding:15px 30px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: #FFB733;
+}
+.btn{
+  margin: 0 10px;
+  padding: 15px 45px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: #029E91;
+  color:#FFFFFF;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn:hover{
+    background: #018c7E;
+}
+.partie2{
+    padding: 50px 15px 30px;
+    display: block;
+    width:auto;
+}
+.Email-form i{
+    font-size: 18px;
+}
