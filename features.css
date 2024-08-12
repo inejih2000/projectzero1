@@ -200,4 +200,30 @@ button:hover {
     color:#FFA500;
 }
 
+/*style of drowp down*/
+.drop-down{
+    display: none;
+ }
+ .nav ul li:hover .drop-down{
+     display: block;
+     position:absolute;
+     margin-top: 15px;
+     margin-left: -15px;
+     background: #021826;
+     padding: 15px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+ 
+ .nav ul li:hover .drop-down ul{
+     display: block;
+     margin: 10px;
+ }
+ .nav ul li:hover .drop-down ul li{
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+ }
+
+
 

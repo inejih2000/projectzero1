@@ -166,6 +166,8 @@ button:hover {
 .photo-contanire img{
     width:100%
 }
+
+/*style of drowp down*/
 .drop-down{
    display: none;
 }
@@ -180,10 +182,7 @@ button:hover {
    
 
 }
-/*.drop-down ul li {
-    margin: 20px 15px;
-    
-}*/
+
 .nav ul li:hover .drop-down ul{
     display: block;
     margin: 10px;
