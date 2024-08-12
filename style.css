@@ -23,7 +23,9 @@ body{
     align-items: center;
     justify-content: space-around;
     background-color: #021826;
-    box-shadow: 3px 3px 5px black;
+   /* box-shadow: 3px 3px 5px black;*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    
 }
 .navbar .logo{
     display: flex;
@@ -77,6 +79,7 @@ body{
    
     position: absolute;
     left:0;
+    bottom: -8px;
     display: block;
     transition: 0.5s;
 
@@ -163,3 +166,32 @@ button:hover {
 .photo-contanire img{
     width:100%
 }
+.drop-down{
+   display: none;
+}
+.nav ul li:hover .drop-down{
+    display: block;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: #021826;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+   
+
+}
+/*.drop-down ul li {
+    margin: 20px 15px;
+    
+}*/
+.nav ul li:hover .drop-down ul{
+    display: block;
+    margin: 10px;
+}
+.nav ul li:hover .drop-down ul li{
+   width: 150px;
+   padding: 10px;
+   text-align: left;
+   border-radius: 0;
+}
+
