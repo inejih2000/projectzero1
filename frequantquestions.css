@@ -217,6 +217,7 @@ button:hover {
      margin-left: -15px;
      background: #021826;
      padding: 15px;
+     z-index: 1;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
  
