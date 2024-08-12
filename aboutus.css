@@ -74,6 +74,7 @@ body{
    
     position: absolute;
     left:0;
+    bottom: -8px;
     display: block;
     transition: 0.5s;
 
