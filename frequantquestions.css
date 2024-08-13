@@ -101,7 +101,7 @@ body{
 
 }
 
-button:hover {
+.buttons button:hover {
     background-color: #037f8c;
     transform:scale(1.1);
 }
@@ -171,6 +171,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 .faq-section .question .button{
     text-transform: capitalize;
@@ -192,10 +193,9 @@ button:hover {
     text-transform: capitalize;
     color : black;
     background-color: #fff;
-    position: absolute;
-    right:30px;
     width:400px;
     height: 150px;
+    margin:0 0 5px;
     line-height: 1.6;
     font-size: 2.6vmin;
     padding: 20px 10px;
@@ -230,6 +230,114 @@ button:hover {
     padding: 10px;
     text-align: left;
     border-radius: 0;
+ }
+ /*style of the footer*/
+ .section5{
+    margin-top: 250px;
+    background: #023859;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    height: auto;
+    position: relative;
+   
+ }
+ .company-footer{
+   margin-bottom: 150px;
+   max-height: 100vh;
+ 
+ }
+ .company-footer h3{
+    text-transform: capitalize;
+    font-size: 4vmin;
+    color:#78b4d6;
+
+ }
+ .company-footer p{
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 20px;
+    color:#78b4d6;
+ }
+ .links-footer h3{
+    text-transform: capitalize;
+    font-size: 4vmin;
+   color:#78b4d6;
+   
+ }
+ .links-footer{
+    max-height:100vh;
+    margin-bottom: 50px;
+ }
+ .links a {
+    display:block;
+    text-decoration: none;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color:#FFA500;
+
+}
+ .links{
+    margin: 20px 0;
+
+ }
+ .subscribe{
+  height: auto;
+  margin-bottom: 140px;
+  
+ }
+ .subscribe input{
+    margin: 20px 0;
+    padding: 10px;
+    height: 40px;
+    width:250px;
+    outline:none;
+    font-size:18px;
+    text-transform:capitalize;
+    border:none;
+    border-radius:5px;
+    border:1px solid  transparent;
+    color:#333
+}
+.subscribe input:hover{
+    border: 1px solid #000;
+}
+ .subscribe .btn{
+    padding: 10px;
+    font-size:18px;
+    border: none;
+    border-radius:5px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    color:#333
+ }
+ .subscribe .btn:hover{
+    border:1px solid #000;
+ }
+ .icon-subscribe{
+    text-align: left;
+ }
+ .icon-subscribe i{
+    font-size:25px;
+    color:#fff;
+    margin: 10px 3px;
+    color:#FFA500;
+ }
+ .subscribe h3{
+    font-size: 4vmin;
+    text-transform: capitalize;
+    color:#78b4d6;
+ }
+    
+.links-footer a{
+    display: block;
  }
 
 
